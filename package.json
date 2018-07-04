@@ -1,0 +1,15 @@
+{
+  "name": "webime",
+  "description": "JS拼音汉字转换，带词库",
+  "version": "0.0.1",
+  "license": "MPL-2.0",
+  "scripts": {
+    "build": "node build.js",
+    "autoWords": "node src/tools/automated-words-converter.js",
+    "weight": "node src/tools/weight-automated-words-converter.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
